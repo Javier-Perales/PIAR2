@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: "Programación, IA y Robótica 2"
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -226,15 +226,6 @@ plugins:
     layout:
       position: afterBody
       priority: 10
-  - source: "@quartz-community/footer"
-    enabled: true
-    options:
-      links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
-    layout:
-      position: footer
-      priority: 50
   - source: "@quartz-community/recent-notes"
     enabled: false
   - source: "@quartz-community/spacer"
@@ -269,7 +260,7 @@ plugins:
   - source: "@quartz-community/obsidian-plugin-excalidraw"
     enabled: true
     options:
-      enableInteraction: true
+      enableInteraction: false
       darkMode: auto
       exportPadding: 20
     order: 50
@@ -298,4 +289,5 @@ layout:
         right: []
     canvas: {}
     bases: {}
+
 
