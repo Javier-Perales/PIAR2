@@ -13,7 +13,7 @@ tags: [piar2, 3eso, cplusplus, arduino]
 
 ### 💻 Misión 1: C++ Core Dev — Algoritmia y Software Modular
 * **Reto 1.1:** [[sda1-cpp-core/R1.1 De Bloques a C++|De Bloques a C++]]
-* **Reto 1.2:** Tipado estricto de datos, memoria y operadores lógicos.
+* **Reto 1.2:** [[sda1-cpp-core/R1.2 Operadores y Expresiones Lógicas|Operadores y Expresiones Lógicas]]
 * **Reto 1.3:** Control de flujo condicional: `if-else` y `switch-case`.
 * **Reto 1.4:** Bucles e iteraciones: `for`, `while` y depuración.
 * **Reto 1.5:** Modularidad con funciones, paso de parámetros y licencias de software libre.
