@@ -1,0 +1,168 @@
+// ============================================================================
+// CUESTIONARIO GIFT: RETO 1.1 - DE BLOQUES A C++ (PIAR 2 - 3.º ESO)
+// Formato: GIFT para importación directa en Moodle / Aules
+// Configuración: 1 opción correcta (100%), 3 incorrectas (-25% cada una)
+// ============================================================================
+
+::P01_Algoritmo_Definicion:: ¿Cómo se define formalmente un algoritmo en el ámbito de la informática? {
+    =Un conjunto de instrucciones ordenadas, precisas y finitas que indican paso a paso cómo resolver un problema o realizar una tarea.
+    ~%-25%Un componente físico del procesador que almacena instrucciones binarias de forma indefinida.
+    ~%-25%Un programa informático que piensa de manera autónoma y corrige sus propios fallos de diseño.
+    ~%-25%Un conjunto de datos desordenados que la máquina interpreta utilizando su propio sentido común.
+}
+
+::P02_Algoritmo_Regla_Preciso:: Dentro de las cuatro reglas de oro de un algoritmo, ¿qué significa que debe ser "preciso"? {
+    =Cada paso debe indicar con total exactitud qué hacer, sin ambigüedades como "muévete un poco".
+    ~%-25%El algoritmo debe resolverse en menos de diez líneas de código en el editor.
+    ~%-25%Todas las variables utilizadas deben contener al menos cuatro cifras decimales.
+    ~%-25%El código fuente debe compilarse sin consumir memoria RAM en el sistema.
+}
+
+::P03_Algoritmo_Regla_Ordenado:: ¿Por qué es fundamental que los pasos de un algoritmo sigan una secuencia estrictamente "ordenada"? {
+    =Porque cambiar el orden de las instrucciones altera el resultado final o impide que se ejecute la tarea.
+    ~%-25%Porque el compilador solo procesa aquellas instrucciones que están ordenadas alfabéticamente.
+    ~%-25%Para que el procesador pueda ejecutar todas las órdenes simultáneamente sin esperar a la anterior.
+    ~%-25%Para garantizar que el archivo de código fuente no ocupe espacio en el disco duro.
+}
+
+::P04_Algoritmo_Regla_Finito:: ¿A qué hace referencia la propiedad de que todo algoritmo debe ser "finito"? {
+    =Debe tener un principio y un final claro, sin ejecutarse infinitamente sin propósito.
+    ~%-25%Debe utilizar exclusivamente números enteros positivos en todas sus instrucciones.
+    ~%-25%No puede contener más de tres variables declaradas en la memoria del equipo.
+    ~%-25%Debe poder visualizarse en una sola pantalla sin necesidad de utilizar el ratón.
+}
+
+::P05_Algoritmo_Regla_Ambiguedad:: ¿Qué establece la regla de oro que indica que un algoritmo debe carecer de "ambigüedad"? {
+    =Las instrucciones no pueden dar lugar a dudas ni a dobles interpretaciones por parte de la máquina.
+    ~%-25%El código debe estar traducido simultáneamente a dos lenguajes de programación distintos.
+    ~%-25%El programa solo puede ejecutarse cuando el usuario introduce una contraseña válida.
+    ~%-25%Las órdenes deben escribirse utilizando únicamente símbolos matemáticos universales.
+}
+
+::P06_Concepto_Bug_Procesador:: En informática, ¿a qué llamamos un "bug" y cómo actúa el procesador ante él? {
+    =Es un error en las instrucciones que hace que el procesador no sepa qué hacer o falle, ya que ejecuta todo al pie de la letra.
+    ~%-25%Es una optimización automática del compilador cuando detecta código repetido en el archivo.
+    ~%-25%Es un virus biológico que daña físicamente las pistas de cobre de la placa base.
+    ~%-25%Es una función especial que detiene temporalmente el ventilador del ordenador para ahorrar energía.
+}
+
+::P07_Lenguajes_Ambito_CPP:: Según la comparativa de lenguajes, ¿por qué destaca principalmente C / C++? {
+    =Por su velocidad extrema y el control directo sobre la memoria y el hardware en robótica y motores de videojuegos.
+    ~%-25%Por ejecutarse de forma nativa en cualquier navegador web moderno sin requerir compilación.
+    ~%-25%Por utilizar bloques visuales arrastrables que impiden cometer errores sintácticos.
+    ~%-25%Por tener una sintaxis idéntica al lenguaje natural humano pensada para principiantes.
+}
+
+::P08_Lenguajes_Ambito_Python:: ¿En qué campos destaca especialmente el lenguaje Python? {
+    =En inteligencia artificial, ciencia de datos y scripts rápidos gracias a su sintaxis limpia.
+    ~%-25%En la gestión a bajo nivel de microchips sin sistema operativo donde la velocidad es crítica.
+    ~%-25%En el desarrollo exclusivo de videojuegos 3D que requieren exprimir la tarjeta gráfica al máximo.
+    ~%-25%En la creación de placas de circuitos impresos y conectores para robótica.
+}
+
+
+
+::P11_Sintaxis_Punto_Y_Coma:: A diferencia del lenguaje humano, ¿qué sucede si olvidas un punto y coma (;) al final de una instrucción en C++? {
+    =El programa no se ejecutará y el compilador arrojará un error de sintaxis.
+    ~%-25%El ordenador deduce el final de la instrucción y coloca el punto y coma automáticamente.
+    ~%-25%El programa se compila sin problemas, pero el cálculo se ejecuta en sentido inverso.
+    ~%-25%Se genera una advertencia leve, pero el archivo ejecutable se crea de forma idéntica.
+}
+
+::P12_Codigo_Binario_Necesidad:: ¿Por qué los humanos programamos en lenguajes como C++ en lugar de comunicarnos directamente con el procesador? {
+    =Porque los ordenadores solo entienden código binario (ceros y unos), lo que haría inviable programar directamente.
+    ~%-25%Porque el código binario solo funciona en pantallas antiguas de fósforo verde.
+    ~%-25%Porque los lenguajes de alto nivel son más lentos y permiten al ordenador no sobrecalentarse.
+    ~%-25%Porque la normativa educativa prohíbe el uso de combinaciones de ceros y unos en clase.
+}
+
+::P13_Compilado_Definicion_CPP:: ¿Qué caracteriza a un lenguaje compilado como C++ frente a un lenguaje interpretado? {
+    =Se traduce por completo a código máquina una sola vez antes de ejecutarse, generando un archivo ultraveloz e independiente.
+    ~%-25%Requiere que el código fuente esté publicado en un repositorio en la nube para funcionar.
+    ~%-25%Va leyendo y traduciendo las instrucciones línea a línea en tiempo real mientras el usuario lo usa.
+    ~%-25%No genera ningún archivo nuevo en el disco duro tras pasar por el compilador.
+}
+
+::P14_Interpretado_Definicion:: ¿Cómo ejecuta las instrucciones un lenguaje interpretado como Python o Scratch? {
+    =Un programa intermedio lee y traduce cada instrucción sobre la marcha mientras el programa corre.
+    ~%-25%Convierte el archivo directamente en hardware físico mediante una impresora 3D.
+    ~%-25%Traduce todo el código semanas antes de que el usuario decida abrir la aplicación.
+    ~%-25%Ignora las órdenes que contienen números decimales para agilizar la respuesta.
+}
+
+::P15_Compilado_vs_Interpretado:: ¿Cuál es la principal ventaja y desventaja de los lenguajes interpretados frente a los compilados? {
+    =Facilitan el ensayo-error, pero penalizan la velocidad y consumen más recursos que los compilados.
+    ~%-25%Son mucho más rápidos de ejecutar, pero consumen más espacio en el disco duro.
+    ~%-25%No permiten utilizar variables en su código, pero nunca sufren errores de sintaxis.
+    ~%-25%Son obligatorios para robótica física, pero impiden el uso de entornos gráficos.
+}
+
+::P16_Estructura_Iostream:: En un archivo fuente de C++, ¿cuál es la función de la línea "\#include &lt;iostream&gt;"? {
+    =Incluir la biblioteca estándar que permite realizar operaciones de entrada y salida como std\:\:cout y std\:\:cin.
+    ~%-25%Indicar al sistema operativo que reserve 100 megabytes de memoria para el programa.
+    ~%-25%Conectar el programa directamente con los servidores del entorno web de Aules.
+    ~%-25%Comprobar que el teclado del ordenador está conectado correctamente antes de empezar.
+}
+
+::P17_Estructura_Funcion_Main:: ¿Qué papel cumple la función "int main() \{ ... \}" en un programa en C++? {
+    =Es el punto de partida obligatorio por donde el ordenador comienza a ejecutar las instrucciones.
+    ~%-25%Es una función auxiliar que solo se ejecuta cuando el código contiene errores graves.
+    ~%-25%Sirve únicamente para apagar la pantalla del terminal cuando el programa finaliza.
+    ~%-25%Es la directiva encargada de borrar los archivos temporales creados por el editor nano.
+}
+
+::P18_Terminal_Comando_GPP:: Al compilar en LliureX con "g++ -Wall HolaMundo.cpp -o Hola", ¿qué función tiene el parámetro "-o Hola"? {
+    =Especificar el nombre que tendrá el archivo binario ejecutable que se va a generar.
+    ~%-25%Ocultar todos los mensajes de error para que el programa compile sin avisos.
+    ~%-25%Abrir el editor nano en una ventana flotante con el archivo indicado.
+    ~%-25%Ordenar las líneas de código fuente de menor a mayor longitud automáticamente.
+}
+
+::P19_Sintaxis_Std_Cout:: ¿Cuál es la instrucción adecuada en C++ para mostrar en pantalla el texto "¡Hola, mundo tecnológico!"? {
+    =std\:\:cout \<\< "¡Hola, mundo tecnológico!";
+    ~%-25%std\:\:cin \>\> "¡Hola, mundo tecnológico!";
+    ~%-25%print("¡Hola, mundo tecnológico!");
+    ~%-25%console.write("¡Hola, mundo tecnológico!");
+}
+
+::P20_Secuencia_Escape_SaltoLinea:: ¿Qué utilidad tiene la secuencia de escape "\\n" dentro de una sentencia de salida como "std\:\:cout \<\< \"Hola\\n\";"? {
+    =Provoca un salto de línea en la consola, pasando el cursor al inicio del siguiente renglón.
+    ~%-25%Borra la palabra que se ha escrito inmediatamente antes en la terminal.
+    ~%-25%Indica al compilador que la variable asociada contiene un número negativo.
+    ~%-25%Detiene el procesador durante exactamente un segundo antes de continuar.
+}
+
+::P21_Delimitadores_Texto_Numeros:: En C++, ¿cómo se diferencian las cadenas de texto de los valores numéricos al imprimirlos con std\:\:cout? {
+    =El texto debe ir siempre encerrado entre comillas dobles, mientras que los números se escriben sin comillas.
+    ~%-25%Los números deben escribirse obligatoriamente entre corchetes y el texto sin comillas.
+    ~%-25%Tanto el texto como los números deben delimitarse siempre con barras inclinadas (//).
+    ~%-25%El texto se escribe con mayúsculas y los números requieren el símbolo del porcentaje delante.
+}
+
+::P22_Variable_Definicion_Metafora:: Según la analogía del almacén y las cajas, ¿qué es exactamente una variable en programación? {
+    =Una caja con una etiqueta donde guardamos información que puede variar durante la ejecución.
+    ~%-25%Un valor constante grabado de forma permanente en la placa de circuito impreso.
+    ~%-25%Un archivo de texto que no puede modificarse una vez cerrado el terminal.
+    ~%-25%Un cable virtual que conecta el ratón con la pantalla interactiva del aula.
+}
+
+::P23_Variable_Tipo_Int:: Si queremos almacenar en C++ la cantidad de rocas recogidas por un rover (por ejemplo, 5), ¿qué tipo de dato debemos elegir? {
+    =int, porque es el tipo diseñado para números enteros sin parte decimal.
+    ~%-25%float, porque permite guardar palabras completas de hasta cinco letras.
+    ~%-25%bool, porque todos los minerales en robótica se representan con ceros.
+    ~%-25%string, porque los números enteros en C++ no pueden sumarse si son variables.
+}
+
+::P24_Variable_Tipo_Float_Bool:: ¿Qué tipos de datos de C++ utilizarías, respectivamente, para la temperatura del suelo (18.7) y para saber si el motor está encendido (true)? {
+    =float para la temperatura y bool para el estado del motor.
+    ~%-25%int para la temperatura y string para el estado del motor.
+    ~%-25%bool para la temperatura y float para el estado del motor.
+    ~%-25%string para la temperatura e int para el estado del motor.
+}
+
+::P25_Variable_Modificacion_Valor:: En el programa del rover, si tenemos "int muestrasRocas \= 5;" y ejecutamos "muestrasRocas \= muestrasRocas + 1;", ¿qué sucede? {
+    =El contenido de la variable se actualiza a 6, sustituyendo el valor que tenía anteriormente.
+    ~%-25%El compilador genera un error porque una variable no puede aparecer a ambos lados del signo igual.
+    ~%-25%Se crea automáticamente una nueva variable llamada muestrasRocas2 con el valor 1.
+    ~%-25%El valor 5 se mantiene fijo y el 1 se guarda en un archivo de texto en el escritorio.
+}
