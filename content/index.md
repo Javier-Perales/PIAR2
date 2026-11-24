@@ -15,12 +15,9 @@ tags: [piar2, 3eso, cplusplus, arduino]
 * **Reto 1.1:** [[sda1-cpp-core/R1.1 De Bloques a C++|De Bloques a C++]]
 * **Reto 1.2:** [[sda1-cpp-core/R1.2 Operadores y Expresiones Lógicas|Operadores y Expresiones Lógicas]]
 * **Reto 1.3:**[[sda1-cpp-core/R1.3 De C++ a Arduino UNO| De C++ a Arduino UNO]]
-* **Reto 1.4:** Bucles e iteraciones: `for`, `while` y depuración.
-* **Reto 1.5:** Modularidad con funciones, paso de parámetros y licencias de software libre.
-* **Reto 1.6:** C++ Code Showcase y feria de evaluación gamificada.
 
 ### 🏎️ Misión 2: Desafío Siguelíneas — Robótica UPV Campus d'Alcoi
-* **Reto 2.1:** Restricciones de gálibo, chasis diferencial y puente en H.
+* **Reto 2.1:** [[sda2-siguelineas/R2.1 Diseño del robot siguelíneas|Diseño del robot siguelíneas]]
 * **Reto 2.2:** Sensores de reflectancia TCRT5000 y rutina de auto-calibración.
 * **Reto 2.3:** Control diferencial de giro y señales PWM en curvas de 10 cm.
 * **Reto 2.4:** Temporización reglamentaria de 5s y optimización de aceleración.
